@@ -5,7 +5,7 @@
     "dotnet-test-xunit": "2.2.0-preview2-build1029",
     "Microsoft.NETCore.App": {
       "type": "platform",
-      "version": "1.0.0"
+      "version": "1.1.0-preview1-001100-00"
     },
     "Moq": "4.6.36-*",
     "SportsStore": "1.0.0",
