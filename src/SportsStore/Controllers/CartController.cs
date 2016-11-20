@@ -10,9 +10,11 @@ namespace SportsStore.Controllers
     public class CartController:Controller
     {
         private IProductRepository repository;
-        public CartController(IProductRepository repo)
+        private Cart cart;
+        public CartController(IProductRepository repo,Cart cartService)
         {
             repository = repo;
+            cart = cartService;
         }
 
         public ViewResult Index(string returnUrl)
