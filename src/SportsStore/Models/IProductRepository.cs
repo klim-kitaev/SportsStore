@@ -14,4 +14,3 @@ namespace SportsStore.Models
         Product DeleteProduct(int productID);
     }
 }
-}
